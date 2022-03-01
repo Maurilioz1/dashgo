@@ -10,8 +10,6 @@ export function Sidebar() {
         lg: false,
     })
 
-    console.log(isOpen)
-
     if (isDrowerSidebar) {
         return (
             <Drawer isOpen={isOpen} placement="left" onClose={onClose}>

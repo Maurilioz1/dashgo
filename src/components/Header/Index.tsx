@@ -17,9 +17,7 @@ export function Header() {
     return (
         <Flex as='header' w='100%' h='20' maxWidth='1480px' mx='auto' mt='4' align='center' px='6'>
             {!isWideVersion && (
-                <IconButton icon={<Icon as={RiMenuLine} />} fontSize='24' variant='unstyled' onClick={onOpen} aria-label='Abrir navegação' mr='2'>
-
-                </IconButton>
+                <IconButton icon={<Icon as={RiMenuLine} />} fontSize='24' variant='unstyled' onClick={onOpen} aria-label='Abrir navegação' mr='2' />
             )}
 
             <Logo />
